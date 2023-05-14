@@ -1,7 +1,7 @@
 import React from "react";
-import web3 from "../src/images/heart2.jpg"
-import web2 from "../src/images/cancer.jpg"
-import web1 from "../src/images/kidney2.jpg"
+import web3 from "../src/images/t1.jpg"
+import web2 from "../src/images/t2.jpeg"
+import web1 from "../src/images/t3.webp"
 const Services=()=>{
     return(
         <>
@@ -11,8 +11,8 @@ const Services=()=>{
                 <div class="card">
         <img class="card-img-top" src={web3} alt="Card image cap"/>
          <div class="card-body">
-         <h5 class="card-title">Heart health</h5>
-        <p class="card-text">Check if your heart is working properly via our advanced machine learning algorithms.</p>
+         <h5 class="card-title">Truck 1</h5>
+        <p class="card-text">Mumbai to Delhi</p>
         <a href="/form3" className="btn btn-primary">Check Health</a>
   </div>
 </div>
@@ -22,8 +22,8 @@ const Services=()=>{
                 <div class="card">
   <img class="card-img-top" src={web2} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Cancer risk</h5>
-    <p class="card-text">Check if you have the symptoms of breast cancer. Remember prevention is better than cure.</p>
+    <h5 class="card-title">Truck 2</h5>
+    <p class="card-text">Chennai to Bangalore</p>
     <a href="/form2" class="btn btn-primary">Check Health</a>
   </div>
 </div>
@@ -32,8 +32,8 @@ const Services=()=>{
                 <div class="card">
   <img class="card-img-top" src={web1} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Kidney Health</h5>
-    <p class="card-text">Check if you are prone to kidney failure using our advanced algorithms developed by our talented engineers.</p>
+    <h5 class="card-title">Truck 3</h5>
+    <p class="card-text">Jalandhar to Delhi</p>
     <a href="/form1" class="btn btn-primary">Check Health</a>
   </div>
                     </div>

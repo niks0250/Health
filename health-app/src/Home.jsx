@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../src/images/caduceus logo,health logo,medical logo.png"
+import web from "../src/images/isro.png"
 // import weber from "..src/images/nurse.png"
 import './index.css';
 const Home=()=>{
@@ -14,10 +14,10 @@ const Home=()=>{
                         <div className="mt-3 asdf">
                             </div>
                         <h2 className="mt-6">
-                            Check your health with <strong className="brand-name">Phenom Medicare</strong>
+                            Live Asset monitoring with <strong className="brand-name">ISRO Asset Tracking</strong>
                         </h2>
                         <h5 className="my-3">
-                            We help in analysing your health records to find the risk for any potential diseases using our advanced machine learning algorithms.
+                            An indigenous asset-tracking website developed for ISRO that uses Google Maps API.
                         </h5>
                         <div className="mt-3">
                             <a href="/services" className="btn btn-primary">Get Started!</a>
